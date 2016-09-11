@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 # From the book Programmation efficace (ISBN 9782340-010055)
 # tryalgo.org
 #
@@ -17,12 +19,12 @@ t9 = "22233344455566677778889999"
 
 
 def word_to_numbers(word):
-    """Retourne la suite de chiffres correspondant à un mot"""
+    """Returns the digits corresponding to the word on a 9 keys keypad"""
     return "".join(map(lambda l: t9[ord(l)-ord('a')], word))
 
 
 def build_dictionary(words):
-    """Construit le dictionnaire des textonymes"""
+    """Builds the textonyms dictionary"""
     d = {}
 
     for word, weight in words.items():
@@ -37,7 +39,7 @@ def build_dictionary(words):
 
 
 def t9_guess_word(typed_keys, dictionary):
-    """Retourne le mot le plus pertinent suivant la série de chiffres entrée"""
+    """Returns the most likely word given the digits"""
 
     # Lists the matching words
     match = []

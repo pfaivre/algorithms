@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 # From the book Programmation efficace (ISBN 9782340-010055)
 # tryalgo.org
 #
