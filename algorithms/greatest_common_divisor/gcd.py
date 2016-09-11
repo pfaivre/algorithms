@@ -33,6 +33,10 @@ def gcd_list_recursive(integers):
 
 def gcd_list(integers):
     """Returns the GCD of an an arbitrary amount of numbers (loop method)"""
+
+    if len(integers) < 1:
+        return None
+
     while len(integers) > 1:
         # Combine the two first into their GCD
         integers[0] = gcd(integers.pop(0), integers[0])

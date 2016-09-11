@@ -8,7 +8,7 @@
 # implementor : Pierre Faivre
 # date : 2016-09-07
 #
-# complexity : 
+# complexity :
 
 import sys
 
@@ -40,6 +40,9 @@ def build_dictionary(words):
 
 def t9_guess_word(typed_keys, dictionary):
     """Returns the most likely word given the digits"""
+
+    if len(typed_keys) < 1:
+        return None
 
     # Lists the matching words
     match = []

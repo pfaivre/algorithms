@@ -14,7 +14,11 @@ import sys
 
 
 def primes(n):
-    """Returns all the prime numbers lower than n using the Sieve of Eratosthenes"""
+    """Returns all the prime numbers strictly lower than n using the Sieve of Eratosthenes"""
+    
+    if n <= 2:
+        return []
+
     p = [True] * n
     ret = [2]
 

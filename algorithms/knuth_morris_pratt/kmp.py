@@ -32,7 +32,7 @@ def knuth_morris_pratt(s, t):
             if j >= len(t) - 1:
                 return i
 
-    # Should not be reached so far
+    # Should not be reached so far unless one of the strings is empty
     return -1
 
 
