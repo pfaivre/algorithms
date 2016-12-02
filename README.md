@@ -3,7 +3,7 @@ algorithms [![Build Status](https://travis-ci.org/pfaivre/algorithms.svg?branch=
 
 Personnal implementations of various kinds of algorithms
 
-All the subjects come from the book _Programmation efficace_ by Christoph Dürr and Jill-Jênn Vie (ISBN 9782340-010055)
+Some of the subjects come from the book _Programmation efficace_ by Christoph Dürr and Jill-Jênn Vie (ISBN 9782340-010055)
 
 ## Currently implemented
 
@@ -15,11 +15,12 @@ All the subjects come from the book _Programmation efficace_ by Christoph Dürr 
 | 2.7 | [Pattern matching - Rabin-Karp](algorithms/rabin_karp) | Search a pattern on a sequence with the Rabin-Karp approach |
 | 14.1 | [Greatest common divisor](algorithms/greatest_common_divisor) | Greatest common divisor between two or more numbers |
 | 14.5 | [Prime numbers](algorithms/prime_numbers) | List the prime numbers |
+| - | [Weighted Random Pick](algorithms/weighted_random_pick) | Randomly pick an element from an array based on its weight |
 
 ## Running tests
 
 Unit tests has been implemented for all algorithms.  
 To run all the tests at once, simply type the following command:
 ```sh
-$ python -m unittest discover
+$ python3 -m unittest discover
 ```
