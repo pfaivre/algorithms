@@ -46,7 +46,7 @@ def rolling_hash_update(h, length, old_char, new_char):
 
 
 def rabin_karp(s, t):
-    """Searches the first occurence of the pattern t in the string s"""
+    """Searches the first occurrence of the pattern t in the string s"""
 
     # Nothing to search in or for
     if len(s) < 1 or len(t) < 1:

@@ -14,7 +14,7 @@ import sys
 
 
 def knuth_morris_pratt(s, t):
-    """Recherche la position du motif t dans la chaîne s"""
+    """Searches the first occurrence of the pattern t in the string s"""
 
     # First loop on the sequence
     for i in range(0, len(s)):

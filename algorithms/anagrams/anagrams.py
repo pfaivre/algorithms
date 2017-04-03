@@ -39,6 +39,7 @@ def list_anagrams(input_text):
 
     return anagrams
 
+
 if __name__ == "__main__":
     user_input = sys.stdin.readline().rstrip('\n')
 

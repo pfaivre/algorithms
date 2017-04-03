@@ -1,7 +1,7 @@
 algorithms [![Build Status](https://travis-ci.org/pfaivre/algorithms.svg?branch=master)](https://travis-ci.org/pfaivre/algorithms)
 ==========
 
-Personnal implementations of various kinds of algorithms
+Personal implementations of various kinds of algorithms
 
 Some of the subjects come from the book _Programmation efficace_ by Christoph Dürr and Jill-Jênn Vie (ISBN 9782340-010055)
 
