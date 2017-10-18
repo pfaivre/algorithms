@@ -16,6 +16,7 @@ Some of the subjects come from the book _Programmation efficace_ by Christoph DÃ
 | 14.1 | [Greatest common divisor](algorithms/greatest_common_divisor) | Greatest common divisor between two or more numbers |
 | 14.5 | [Prime numbers](algorithms/prime_numbers) | List the prime numbers |
 | - | [Weighted Random Pick](algorithms/weighted_random_pick) | Randomly pick an element from an array based on its weight |
+| - | [CountDiv](algorithms/count_div) | Find the number of integers divisible by K in a range |
 
 ## Running tests
 
