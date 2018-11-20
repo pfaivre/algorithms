@@ -17,6 +17,7 @@ Some of the subjects come from the book _Programmation efficace_ by Christoph DÃ
 | 14.5 | [Prime numbers](algorithms/prime_numbers) | List the prime numbers |
 | - | [Weighted Random Pick](algorithms/weighted_random_pick) | Randomly pick an element from an array based on its weight |
 | - | [CountDiv](algorithms/count_div) | Find the number of integers divisible by K in a range |
+| - | [MinAvgTwoSlice](algorithms/min_avg_two_slice) | Find the slice with the minimum average in a list of numbers |
 
 ## Running tests
 
